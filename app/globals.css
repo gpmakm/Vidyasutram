@@ -1,10 +1,10 @@
-body {
+/* body {
   height: 100vh;
   width: 100vw;
   margin: 0px;
   padding: 0px;
   background-color: black;
-}
+} */
 
 #person_name{
   height: 9vh;
@@ -22,10 +22,13 @@ body {
   border: 2px solid rgb(187, 16, 221) ;
 }
 nav {
-  background-color: green;
-  color: black;
+  /* background-color: green; */
+  color: white;
   width: 100vw;
   height: 8vh;
+  opacity: 1;
+  z-index: 1000;
+  position: relative;
 }
 
 ul {
@@ -34,9 +37,28 @@ ul {
   list-style-type: none;
 }
 #devs{
+  width: 50vw;
+  height: auto;
   display: flex;
-  
-  list-style-type: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dabba{
+  width: 15vw;
+  height: 15vh;
+  border-radius: 5px 35px 5px 35px;
+  border: 2px solid green;
+  background-color:  green;
+  color: black;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 5px;
+  gap: 7px;
+  justify-self: center;
 }
 li {
   width: auto;
@@ -50,7 +72,13 @@ a {
   background-color: rgb(175, 9, 134);
   padding: 10px;
 }
-
+#contributors{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  float: left;
+}
 #name {
   display: flex;
   flex-direction: column;
@@ -125,11 +153,260 @@ h3{
   .box .subjects li{
     width: 100vw;
   }
-  
+  .footer, .footer p, .footer a{
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+  }
   
 }
 .aboutSite,.devs{
   color: white;
+ 
+  
+}
+.devs{
+  width: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.deve{
+  color: white;
+}
+button{
+  width: 25vw;
+  height: auto;
+  padding: 5px;
+  color: white;
+  background-color: blueviolet;
+  border-radius: 25px;
+}
+body {
+  height: 150vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  /* background-color: black; */
+ 
+  background-image: url('..//public/vidyasutrambackground.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+ /* transform: translate(12vw,15vh); */
+}
+
+.box{
+  background-image: url('../public/bg2.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+  overflow-y: scroll;
+}
+.dabba{
+  width: 15vw;
+  height: 15vh;
+  border-radius: 5px 35px 5px 35px; 
+  border: 2px solid green;
+  background-color:  rgb(241, 156, 36);
+   color: rgb(241, 236, 236);
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 5px;
+  gap: 7px;
+  justify-self: center;
+  /* padding: 20px; */
+} 
+
+
+#person_name{
+  height: 9vh;
+  text-transform: capitalize;
+  font-size: large;
+  width: 20vw;
+  border: 2px solid rgb(187, 16, 221) ;
+}
+#feedback,#suggest{
+  overflow: scroll;
+  font-size: large;
+  height: 25vh;
+  width: 30vw;
+  text-transform: capitalize;
+  border: 2px solid rgb(187, 16, 221) ;
+}
+nav {
+
+
+  /* background-color: green; */
+  color: white;
+  width: 100vw;
+  height: 8vh;
+  opacity: 1;
+  z-index: 1000;
+  position: relative;
+
+}
+
+ul {
+  display: flex;
+  float: right;
+  list-style-type: none;
+}
+#devs{
+  display: flex;
+  
+  list-style-type: none;
+}
+li {
+  width: auto;
+  height: auto;
+  padding: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  color: rgb(225, 226, 226);
+  background-color: rgb(116, 83, 6);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  color: rgb(230, 124, 11);
+  font-family: cursive;
+  transform: translate(15vw, 5vh);
+  animation: come 2s ease-in 1 alternate-reverse;
+  overflow: visible;
+}
+h3{
+  color: white;
+}
+/* .content{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+} */
+ .content {
+  /* position: fix;   Sticks it to a position */
+  margin-top: 120vh;         /* Moves to bottom */
+  left: 0;
+  width: 100%;       /* Full width */
+  display: flex;     /* Arrange dabba side by side */
+  justify-content: center;
+  gap: 20px;         /* Space between buttons */
+  padding: 15px;
+  background: #f8f8f8; /* Light background */
+  border-top: 2px solid #ccc; /* Line on top */
+  background: rgb(33, 98, 114);
+}
+
+.dabba a {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* .box{
+  width: 45vw;
+  height: 30vw;
+ display: flex;
+ float: left;
+  border: 1px solid white;
+  overflow-y: scroll;
+} */
+
+.box ul{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  float: left;
+}
+
+.box ul a{
+  background-color: blueviolet;
+  color: white;
+}
+
+@keyframes come {
+  100% {
+    transform: translate(-35vw, 1vh);
+
+  }
+}
+
+
+
+#first, #develperName {
+  font-size: 150%;
+
+}
+
+#second {
+  font-size: 300%;
+  
+}
+.branch,.subjects{
+  color: white;
+  text-transform: uppercase;
+}
+@media screen and (max-width:800px) {
+  nav {
+    width: 100vw;
+    height: 7vh;
+  }
+  .content{
+    /* flex-direction: column;
+    width: auto; */
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(2, 44, 58);
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+
+  
+    
+  }
+  
+  .box{
+    width: 100vw;
+    height: 40vh;
+  }
+  body{
+    width: 100vw;
+    background-size: contain;background-repeat: no-repeat;
+  }
+  .box .subjects li{
+    width: 100vw;
+  }
+  .content{
+    margin-top: 50vw;
+  }
+  #main{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  
+}
+.aboutSite,.devs{
+  color: rgb(7, 7, 6);
  
   
 }
