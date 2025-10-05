@@ -3,7 +3,7 @@ import Link from 'next/link'
 const VidyaSutramNavbar = () => {
   return (
     <nav>
-      <span style={{color:'white', fontWeight:'bold'}}>VidyaSutram</span>
+      <span style={{color:'black', fontWeight:'bold'} } id='siteName'>VidyaSutram</span>
       <ul>
         <li><Link href={"/"}>Home</Link></li>
         <li><Link href={"/about"}>About</Link></li>

@@ -138,6 +138,9 @@ h3{
   text-transform: uppercase;
 }
 @media screen and (max-width:800px) {
+  body{
+    background-size: contain;
+  }
   nav {
     width: 100vw;
     height: 7vh;
@@ -150,14 +153,29 @@ h3{
     width: 100vw;
     height: 40vh;
   }
+  nav ul{
+    float: left;
+  
+  }
   .box .subjects li{
     width: 100vw;
+  }
+  nav ul li{
+    font-size: small;
   }
   .footer, .footer p, .footer a{
     flex-direction: column;
     width: 100vw;
     height: auto;
   }
+ #name{
+  transform: translate(1vw,1vh);
+ }
+ .dabba{
+  width: auto;
+ }
+   
+  
   
 }
 .aboutSite,.devs{
@@ -172,6 +190,7 @@ h3{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-self: center;
 }
 .deve{
   color: white;
@@ -292,24 +311,14 @@ a {
 h3{
   color: white;
 }
-/* .content{
+ .content{
   display: flex;
   flex-direction: row;
-  margin-top: 2vh;
-} */
- .content {
-  /* position: fix;   Sticks it to a position */
-  margin-top: 120vh;         /* Moves to bottom */
-  left: 0;
-  width: 100%;       /* Full width */
-  display: flex;     /* Arrange dabba side by side */
+  margin-top: 55vh;
   justify-content: center;
-  gap: 20px;         /* Space between buttons */
-  padding: 15px;
-  background: #f8f8f8; /* Light background */
-  border-top: 2px solid #ccc; /* Line on top */
-  background: rgb(33, 98, 114);
-}
+  align-items: center;
+} 
+
 
 .dabba a {
   display: block;

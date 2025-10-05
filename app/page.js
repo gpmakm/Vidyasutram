@@ -13,13 +13,13 @@ export default function Home() {
       
       
 
-    
-
-    </div>
       <div className="content">
         <div className="dabba"> <a href={"/syllabus"} style={{backgroundColor:'green'}}>Syllabus</a> </div>
        <div className="dabba"> <a href={"/notes"} style={{backgroundColor:'green'}}>Notes</a> </div>
       </div>
+
+    </div>
+    
 
     </main>
   );
