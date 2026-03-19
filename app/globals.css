@@ -478,7 +478,7 @@ h3 {
   .content{
     margin: 0;
     padding: 0;
-    border: 2px solid red;
+    
     display: flex;
     flex-direction: column;
     width: 80vw;
