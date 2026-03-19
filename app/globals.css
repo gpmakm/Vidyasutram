@@ -6,21 +6,24 @@
   background-color: black;
 } */
 
-#person_name{
+#person_name {
   height: 9vh;
   text-transform: capitalize;
   font-size: large;
   width: 20vw;
-  border: 2px solid rgb(187, 16, 221) ;
+  border: 2px solid rgb(187, 16, 221);
 }
-#feedback,#suggest{
+
+#feedback,
+#suggest {
   overflow: scroll;
   font-size: large;
   height: 25vh;
   width: 30vw;
   text-transform: capitalize;
-  border: 2px solid rgb(187, 16, 221) ;
+  border: 2px solid rgb(187, 16, 221);
 }
+
 nav {
   /* background-color: green; */
   color: white;
@@ -36,7 +39,8 @@ ul {
   float: right;
   list-style-type: none;
 }
-#devs{
+
+#devs {
   width: 50vw;
   height: auto;
   display: flex;
@@ -44,12 +48,13 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.dabba{
+
+.dabba {
   width: 15vw;
   height: 15vh;
   border-radius: 5px 35px 5px 35px;
   border: 2px solid green;
-  background-color:  green;
+  background-color: green;
   color: black;
   font-weight: bolder;
   display: flex;
@@ -60,6 +65,7 @@ ul {
   gap: 7px;
   justify-self: center;
 }
+
 li {
   width: auto;
   height: auto;
@@ -72,13 +78,15 @@ a {
   background-color: rgb(175, 9, 134);
   padding: 10px;
 }
-#contributors{
+
+#contributors {
   display: flex;
   flex-direction: column;
   gap: 5px;
   margin-top: 10px;
   float: left;
 }
+
 #name {
   display: flex;
   flex-direction: column;
@@ -88,31 +96,34 @@ a {
   animation: come 2s ease-in 1 alternate-reverse;
   overflow: visible;
 }
-h3{
+
+h3 {
   color: white;
 }
-.content{
+
+.content {
   display: flex;
   flex-direction: row;
   margin-top: 2vh;
 }
-.box{
+
+.box {
   width: 45vw;
   height: 30vw;
- display: flex;
- float: left;
+  display: flex;
+  float: left;
   border: 1px solid white;
   overflow-y: scroll;
 }
 
-.box ul{
+.box ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
   float: left;
 }
 
-.box ul a{
+.box ul a {
   background-color: blueviolet;
   color: white;
 }
@@ -126,64 +137,82 @@ h3{
 
 
 
-#first, #develperName {
+#first,
+#develperName {
   font-size: 150%;
 }
 
 #second {
   font-size: 300%;
 }
-.branch,.subjects{
+
+.branch,
+.subjects {
   color: white;
   text-transform: uppercase;
 }
+
 @media screen and (max-width:800px) {
-  body{
+  body {
     background-size: contain;
   }
+
   nav {
     width: 100vw;
     height: 7vh;
   }
-  .content{
+
+  .content {
     flex-direction: column;
     width: auto;
   }
-  .box{
+
+  .box {
     width: 100vw;
     height: 40vh;
   }
-  nav ul{
+
+  nav ul {
     float: left;
-  
+
   }
-  .box .subjects li{
+
+  .box .subjects li {
     width: 100vw;
   }
-  nav ul li{
+
+  nav ul li {
     font-size: small;
   }
-  .footer, .footer p, .footer a{
+
+  .footer,
+  .footer p,
+  .footer a {
     flex-direction: column;
     width: 100vw;
     height: auto;
   }
- #name{
-  transform: translate(1vw,1vh);
- }
- .dabba{
-  width: auto;
- }
-   
-  
-  
+
+  #name {
+    transform: translate(1vw, 1vh);
+  }
+
+  .dabba {
+    width: auto;
+  }
+
+
+
 }
-.aboutSite,.devs{
+
+.aboutSite,
+.devs {
   color: white;
- 
-  
+
+
 }
-.devs{
+
+.devs {
   width: 50vw;
   height: auto;
   display: flex;
@@ -192,10 +221,12 @@ h3{
   align-items: center;
   justify-self: center;
 }
-.deve{
+
+.deve {
   color: white;
 }
-button{
+
+button {
   width: 25vw;
   height: auto;
   padding: 5px;
@@ -203,34 +234,36 @@ button{
   background-color: blueviolet;
   border-radius: 25px;
 }
+
 body {
   height: 150vh;
   width: 100vw;
   margin: 0px;
   padding: 0px;
   /* background-color: black; */
- 
-  background-image: url('..//public/vidyasutrambackground.jpg'); 
+
+  background-image: url('..//public/vidyasutrambackground.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
- /* transform: translate(12vw,15vh); */
+  background-repeat: no-repeat;
+  /* transform: translate(12vw,15vh); */
 }
 
-.box{
+.box {
   background-image: url('../public/bg2.jpg');
   background-size: cover;
   width: 100vw;
   height: auto;
   overflow-y: scroll;
 }
-.dabba{
+
+.dabba {
   width: 15vw;
   height: 15vh;
-  border-radius: 5px 35px 5px 35px; 
+  border-radius: 5px 35px 5px 35px;
   border: 2px solid green;
-  background-color:  rgb(241, 156, 36);
-   color: rgb(241, 236, 236);
+  background-color: rgb(241, 156, 36);
+  color: rgb(241, 236, 236);
   font-weight: bolder;
   display: flex;
   justify-content: center;
@@ -240,24 +273,27 @@ body {
   gap: 7px;
   justify-self: center;
   /* padding: 20px; */
-} 
+}
 
 
-#person_name{
+#person_name {
   height: 9vh;
   text-transform: capitalize;
   font-size: large;
   width: 20vw;
-  border: 2px solid rgb(187, 16, 221) ;
+  border: 2px solid rgb(187, 16, 221);
 }
-#feedback,#suggest{
+
+#feedback,
+#suggest {
   overflow: scroll;
   font-size: large;
   height: 25vh;
   width: 30vw;
   text-transform: capitalize;
-  border: 2px solid rgb(187, 16, 221) ;
+  border: 2px solid rgb(187, 16, 221);
 }
+
 nav {
 
 
@@ -276,11 +312,13 @@ ul {
   float: right;
   list-style-type: none;
 }
-#devs{
+
+#devs {
   display: flex;
-  
+
   list-style-type: none;
 }
+
 li {
   width: auto;
   height: auto;
@@ -298,7 +336,7 @@ a {
 #name {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   align-self: center;
   justify-self: center;
@@ -308,16 +346,18 @@ a {
   animation: come 2s ease-in 1 alternate-reverse;
   overflow: visible;
 }
-h3{
+
+h3 {
   color: white;
 }
- .content{
+
+.content {
   display: flex;
   flex-direction: row;
   margin-top: 55vh;
   justify-content: center;
   align-items: center;
-} 
+}
 
 
 .dabba a {
@@ -338,14 +378,14 @@ h3{
   overflow-y: scroll;
 } */
 
-.box ul{
+.box ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
   float: left;
 }
 
-.box ul a{
+.box ul a {
   background-color: blueviolet;
   color: white;
 }
@@ -359,70 +399,144 @@ h3{
 
 
 
-#first, #develperName {
+#first,
+#develperName {
   font-size: 150%;
 
 }
 
 #second {
   font-size: 300%;
-  
+
 }
-.branch,.subjects{
+
+.branch,
+.subjects {
   color: white;
   text-transform: uppercase;
 }
+
 @media screen and (max-width:800px) {
   nav {
     width: 100vw;
     height: 7vh;
   }
-  .content{
+
+  .content {
     /* flex-direction: column;
     width: auto; */
     position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: rgb(2, 44, 58);
-  text-align: center;
-  padding: 10px;
-  margin-top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(2, 44, 58);
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
 
-  
-    
+
+
   }
-  
-  .box{
+
+  .box {
     width: 100vw;
     height: 40vh;
   }
-  body{
+
+  body {
     width: 100vw;
-    background-size: contain;background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  .box .subjects li{
+
+  .box .subjects li {
     width: 100vw;
   }
-  .content{
+
+  .content {
     margin-top: 50vw;
   }
-  #main{
+
+  #main {
     display: flex;
     flex-direction: row;
     gap: 5px;
   }
-  
+
 }
-.aboutSite,.devs{
+
+@media screen and (max-width:500px) {
+  body{
+    background: none;
+  }
+  .footer {
+    padding: 2;
+  }
+  #main{
+    float: inline-end;
+  }
+  .content{
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    position: none;
+    transform: translate(0,-48vh);
+    background: linear-gradient(65deg, rgb(1, 35, 75),rgb(67, 163, 241));
+    
+  }
+  
+  #name{
+    display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  align-self: center;
+
+  justify-self: center;
+  float: left;
+  color: rgb(230, 124, 11);
+  font-family: cursive;
+  transform: translate(0, 0);
+  animation: come2 1s ease-in 1 alternate-reverse;
+  overflow: visible;
+  }
+  .dabba{
+    width: auto;
+    height: auto;
+    border: 2px solid white;
+    
+    padding: 12px;
+  }
+  body{
+    background: linear-gradient(90deg, rgb(1, 35, 75),rgb(67, 163, 241));
+  }
+  nav span{
+    color: white;
+  }
+}
+@keyframes come2 {
+  100% {
+    transform: translate(25vw, 1vh);
+
+  }
+}
+
+.aboutSite,
+.devs {
   color: rgb(7, 7, 6);
- 
-  
+
+
 }
-.deve{
+
+.deve {
   color: white;
 }
-button{
+
+button {
   width: 25vw;
   height: auto;
   padding: 5px;
