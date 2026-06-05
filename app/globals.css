@@ -544,3 +544,21 @@ button {
   background-color: blueviolet;
   border-radius: 25px;
 }
+
+
+
+#temp,#temp form{
+  width: 40vw;
+  height: auto;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  border: 2px solid violet;align-items: center;
+}
+
+.field input{
+  width: 35vw;
+  height: 5vh;
+}

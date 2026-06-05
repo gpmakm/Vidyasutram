@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-export default async function POST(req){
-    const name=await req.json();
-    console.log(name);
+export  async function POST(req){
+    const {appname,user}=await req.json();
+    console.log(appname + user);
     return NextResponse.json({message:"Data received successfully"});
 }
