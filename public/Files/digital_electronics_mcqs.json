@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "level": 1,
+    "question": "Which gate gives output 1 only when all inputs are 1?",
+    "options": ["AND", "OR", "NOT", "XOR"],
+    "rightAnswer": "AND",
+    "explanation": "AND gate outputs 1 only if all inputs are 1."
+  },
+  {
+    "id": 2,
+    "level": 1,
+    "question": "What is the Boolean expression for a NOT gate?",
+    "options": ["A'", "A+B", "A&B", "A⊕B"],
+    "rightAnswer": "A'",
+    "explanation": "NOT gate inverts the input, expressed as A'."
+  },
+  {
+    "id": 3,
+    "level": 1,
+    "question": "Which number system uses base 2?",
+    "options": ["Binary", "Decimal", "Octal", "Hexadecimal"],
+    "rightAnswer": "Binary",
+    "explanation": "Binary system uses base 2."
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "question": "What is the binary equivalent of decimal 5?",
+    "options": ["101", "111", "010", "100"],
+    "rightAnswer": "101",
+    "explanation": "Decimal 5 in binary is 101."
+  },
+  {
+    "id": 5,
+    "level": 1,
+    "question": "Which gate implements addition modulo 2 for two inputs?",
+    "options": ["XOR", "AND", "OR", "NOR"],
+    "rightAnswer": "XOR",
+    "explanation": "XOR performs addition modulo 2."
+  },
+  {
+    "id": 6,
+    "level": 1,
+    "question": "Which logic family has high noise immunity and low power consumption?",
+    "options": ["CMOS", "TTL", "RTL", "DTL"],
+    "rightAnswer": "CMOS",
+    "explanation": "CMOS logic has high noise immunity and low power usage."
+  },
+  {
+    "id": 7,
+    "level": 1,
+    "question": "What is the output of an OR gate if both inputs are 0?",
+    "options": ["0", "1", "Depends on voltage", "Undefined"],
+    "rightAnswer": "0",
+    "explanation": "OR gate outputs 0 only if all inputs are 0."
+  },
+  {
+    "id": 8,
+    "level": 1,
+    "question": "Which code is commonly used for error detection?",
+    "options": ["Parity code", "BCD code", "Gray code", "Excess-3 code"],
+    "rightAnswer": "Parity code",
+    "explanation": "Parity bits are used for simple error detection."
+  },
+  {
+    "id": 9,
+    "level": 1,
+    "question": "What is the octal equivalent of binary 101010?",
+    "options": ["52", "42", "54", "50"],
+    "rightAnswer": "52",
+    "explanation": "Binary 101010 converts to octal 52."
+  },
+  {
+    "id": 10,
+    "level": 1,
+    "question": "Which gate outputs 1 when the number of 1s in input is odd?",
+    "options": ["XOR", "AND", "OR", "NOR"],
+    "rightAnswer": "XOR",
+    "explanation": "XOR outputs 1 when the number of 1s is odd."
+  },
+  {
+    "id": 11,
+    "level": 1,
+    "question": "What is a tri-state logic?",
+    "options": ["High, Low, High Impedance", "0 and 1 only", "Analog signal", "Clocked signal"],
+    "rightAnswer": "High, Low, High Impedance",
+    "explanation": "Tri-state logic adds a third state called High Impedance."
+  },
+  {
+    "id": 12,
+    "level": 1,
+    "question": "Which IC logic family is fastest?",
+    "options": ["Schottky TTL", "CMOS", "RTL", "DTL"],
+    "rightAnswer": "Schottky TTL",
+    "explanation": "Schottky TTL is faster than regular TTL due to reduced storage time."
+  },
+  {
+    "id": 13,
+    "level": 1,
+    "question": "What is the 2’s complement of binary 1010?",
+    "options": ["0110", "1010", "1110", "0101"],
+    "rightAnswer": "0110",
+    "explanation": "2’s complement is obtained by inverting and adding 1."
+  },
+  {
+    "id": 14,
+    "level": 1,
+    "question": "Which code is used for representing decimal digits in binary?",
+    "options": ["BCD", "Gray", "Excess-3", "ASCII"],
+    "rightAnswer": "BCD",
+    "explanation": "BCD represents each decimal digit as a 4-bit binary number."
+  },
+  {
+    "id": 15,
+    "level": 1,
+    "question": "What is the hexadecimal equivalent of binary 11110000?",
+    "options": ["F0", "0F", "FF", "00"],
+    "rightAnswer": "F0",
+    "explanation": "Binary 11110000 converts to hexadecimal F0."
+  },
+  {
+    "id": 16,
+    "level": 1,
+    "question": "Which gate has the truth table opposite to AND gate?",
+    "options": ["NAND", "NOR", "OR", "XOR"],
+    "rightAnswer": "NAND",
+    "explanation": "NAND outputs opposite of AND for same inputs."
+  },
+  {
+    "id": 17,
+    "level": 1,
+    "question": "Which logic family uses complementary MOS transistors?",
+    "options": ["CMOS", "TTL", "RTL", "DTL"],
+    "rightAnswer": "CMOS",
+    "explanation": "CMOS uses complementary MOS transistors for logic operations."
+  },
+  {
+    "id": 18,
+    "level": 1,
+    "question": "What is the decimal equivalent of binary 1101?",
+    "options": ["13", "12", "14", "11"],
+    "rightAnswer": "13",
+    "explanation": "Binary 1101 equals decimal 13."
+  },
+  {
+    "id": 19,
+    "level": 1,
+    "question": "Which number system uses base 16?",
+    "options": ["Hexadecimal", "Binary", "Octal", "Decimal"],
+    "rightAnswer": "Hexadecimal",
+    "explanation": "Hexadecimal is base 16."
+  },
+  {
+    "id": 20,
+    "level": 1,
+    "question": "What is the primary function of a decoder?",
+    "options": ["Convert coded input to unique output line", "Add two numbers", "Store data", "Invert input"],
+    "rightAnswer": "Convert coded input to unique output line",
+    "explanation": "Decoder activates only one output line corresponding to coded input."
+  },
+  {
+    "id": 21,
+    "level": 1,
+    "question": "Which type of IC uses TTL logic?",
+    "options": ["74-series", "4000-series CMOS", "555 timer", "Operational amplifier"],
+    "rightAnswer": "74-series",
+    "explanation": "74-series ICs are TTL logic family."
+  },
+  {
+    "id": 22,
+    "level": 1,
+    "question": "What is the output of a NOR gate if both inputs are 0?",
+    "options": ["1", "0", "Depends", "Undefined"],
+    "rightAnswer": "1",
+    "explanation": "NOR gate outputs 1 only if all inputs are 0."
+  },
+  {
+    "id": 23,
+    "level": 1,
+    "question": "Which gate is called an inverter?",
+    "options": ["NOT", "AND", "OR", "XOR"],
+    "rightAnswer": "NOT",
+    "explanation": "NOT gate inverts input; also called inverter."
+  },
+  {
+    "id": 24,
+    "level": 1,
+    "question": "What is the Gray code for binary 101?",
+    "options": ["111", "100", "110", "101"],
+    "rightAnswer": "111",
+    "explanation": "Binary 101 converts to Gray code 111."
+  },
+  {
+    "id": 25,
+    "level": 1,
+    "question": "Which type of signal is used in digital systems?",
+    "options": ["Discrete", "Continuous", "Analog", "Sinusoidal"],
+    "rightAnswer": "Discrete",
+    "explanation": "Digital signals are discrete in nature."
+  },
+  {
+    "id": 26,
+    "level": 1,
+    "question": "Which gate outputs 0 only when all inputs are 0?",
+    "options": ["OR", "AND", "XOR", "NAND"],
+    "rightAnswer": "OR",
+    "explanation": "OR gate outputs 0 only if all inputs are 0."
+  },
+  {
+    "id": 27,
+    "level": 1,
+    "question": "Which code helps in error correction as well as detection?",
+    "options": ["Hamming code", "BCD", "Gray", "Excess-3"],
+    "rightAnswer": "Hamming code",
+    "explanation": "Hamming code can detect and correct single-bit errors."
+  },
+  {
+    "id": 28,
+    "level": 1,
+    "question": "Which number system uses digits 0-7?",
+    "options": ["Octal", "Decimal", "Binary", "Hexadecimal"],
+    "rightAnswer": "Octal",
+    "explanation": "Octal system uses digits 0 through 7."
+  },
+  {
+    "id": 29,
+    "level": 1,
+    "question": "Which gate produces 1 when inputs are different?",
+    "options": ["XOR", "AND", "OR", "NAND"],
+    "rightAnswer": "XOR",
+    "explanation": "XOR outputs 1 if inputs are different."
+  },
+  {
+    "id": 30,
+    "level": 1,
+    "question": "Which logic family is most widely used in low-power applications?",
+    "options": ["CMOS", "TTL", "RTL", "DTL"],
+    "rightAnswer": "CMOS",
+    "explanation": "CMOS consumes very low power compared to TTL."
+  },
+  {
+    "id": 31,
+    "level": 1,
+    "question": "What is the output of an AND gate when inputs are 1 and 0?",
+    "options": ["0", "1", "Depends", "Undefined"],
+    "rightAnswer": "0",
+    "explanation": "AND gate outputs 1 only if all inputs are 1."
+  },
+  {
+    "id": 32,
+    "level": 1,
+    "question": "Which code represents only one bit change between successive numbers?",
+    "options": ["Gray code", "BCD", "Excess-3", "ASCII"],
+    "rightAnswer": "Gray code",
+    "explanation": "Gray code ensures only one bit changes at a time."
+  },
+  {
+    "id": 33,
+    "level": 1,
+    "question": "Which type of IC uses MOS technology?",
+    "options": ["CMOS", "TTL", "RTL", "DTL"],
+    "rightAnswer": "CMOS",
+    "explanation": "CMOS uses MOSFET transistors."
+  },
+  {
+    "id": 34,
+    "level": 1,
+    "question": "What is the binary equivalent of decimal 10?",
+    "options": ["1010", "1001", "1110", "1100"],
+    "rightAnswer": "1010",
+    "explanation": "Decimal 10 in binary is 1010."
+  },
+  {
+    "id": 35,
+    "level": 1,
+    "question": "Which logic gate is universal and can implement any Boolean function?",
+    "options": ["NAND", "AND", "OR", "XOR"],
+    "rightAnswer": "NAND",
+    "explanation": "NAND is universal; any logic can be implemented with NAND gates."
+  },
+  {
+    "id": 36,
+    "level": 1,
+    "question": "Which code is used for digital clock and counters?",
+    "options": ["BCD", "Gray", "Excess-3", "ASCII"],
+    "rightAnswer": "BCD",
+    "explanation": "BCD is used to represent decimal digits for counters."
+  },
+  {
+    "id": 37,
+    "level": 1,
+    "question": "What is the output of a NOR gate when one input is 1 and other is 0?",
+    "options": ["0", "1", "Depends", "Undefined"],
+    "rightAnswer": "0",
+    "explanation": "NOR outputs 1 only if all inputs are 0."
+  },
+  {
+    "id": 38,
+    "level": 1,
+    "question": "Which gate produces 0 when inputs are same and 1 when inputs are different?",
+    "options": ["XOR", "AND", "OR", "NAND"],
+    "rightAnswer": "XOR",
+    "explanation": "XOR outputs 1 when inputs differ."
+  },
+  {
+    "id": 39,
+    "level": 1,
+    "question": "Which logic family has the highest noise margin?",
+    "options": ["CMOS", "TTL", "RTL", "DTL"],
+    "rightAnswer": "CMOS",
+    "explanation": "CMOS has a high noise margin compared to TTL."
+  },
+  {
+    "id": 40,
+    "level": 1,
+    "question": "Which gate is used as an inverter in digital circuits?",
+    "options": ["NOT", "AND", "OR", "XOR"],
+    "rightAnswer": "NOT",
+    "explanation": "NOT gate inverts the input."
+  },
+  {
+    "id": 41,
+    "level": 1,
+    "question": "Which code is used for simple error detection in data transmission?",
+    "options": ["Parity", "BCD", "Gray", "Excess-3"],
+    "rightAnswer": "Parity",
+    "explanation": "Parity bit is used for simple error detection."
+  },
+  {
+    "id": 42,
+    "level": 1,
+    "question": "Which number system uses digits 0 to 9?",
+    "options": ["Decimal", "Binary", "Octal", "Hexadecimal"],
+    "rightAnswer": "Decimal",
+    "explanation": "Decimal system uses digits 0 through 9."
+  },
+  {
+    "id": 43,
+    "level": 1,
+    "question": "Which gate has output 0 only when both inputs are 1?",
+    "options": ["NAND", "AND", "OR", "XOR"],
+    "rightAnswer": "NAND",
+    "explanation": "NAND is the inverse of AND gate."
+  },
+  {
+    "id": 44,
+    "level": 1,
+    "question": "Which IC series is based on CMOS technology?",
+    "options": ["4000-series", "74-series", "555 timer", "Op-amp 741"],
+    "rightAnswer": "4000-series",
+    "explanation": "4000-series ICs are CMOS."
+  },
+  {
+    "id": 45,
+    "level": 1,
+    "question": "Which logic gate outputs 1 only when both inputs are 0?",
+    "options": ["NOR", "AND", "OR", "XOR"],
+    "rightAnswer": "NOR",
+    "explanation": "NOR outputs 1 only if all inputs are 0."
+  },
+  {
+    "id": 46,
+    "level": 1,
+    "question": "Which number system uses base 8?",
+    "options": ["Octal", "Binary", "Decimal", "Hexadecimal"],
+    "rightAnswer": "Octal",
+    "explanation": "Octal system uses digits 0–7."
+  },
+  {
+    "id": 47,
+    "level": 1,
+    "question": "Which gate is also called an exclusive OR gate?",
+    "options": ["XOR", "AND", "OR", "NAND"],
+    "rightAnswer": "XOR",
+    "explanation": "Exclusive OR gate outputs 1 when inputs differ."
+  },
+  {
+    "id": 48,
+    "level": 1,
+    "question": "What is the primary characteristic of digital signals?",
+    "options": ["Discrete levels", "Continuous", "Analog", "Sinusoidal"],
+    "rightAnswer": "Discrete levels",
+    "explanation": "Digital signals have discrete levels, unlike analog."
+  },
+  {
+    "id": 49,
+    "level": 1,
+    "question": "Which logic family consumes the least power?",
+    "options": ["CMOS", "TTL", "RTL", "DTL"],
+    "rightAnswer": "CMOS",
+    "explanation": "CMOS has low power consumption compared to TTL."
+  },
+  {
+    "id": 50,
+    "level": 1,
+    "question": "Which gate gives high output only when inputs are equal?",
+    "options": ["XNOR", "XOR", "AND", "OR"],
+    "rightAnswer": "XNOR",
+    "explanation": "XNOR outputs 1 when inputs are equal."
+  }
+]

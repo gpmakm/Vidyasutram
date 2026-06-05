@@ -1,0 +1,402 @@
+[
+  {
+    "id": 101,
+    "level": 3,
+    "question": "In a Quine–McCluskey tabular method, Prime Implicants that cover minterms not covered by any other PI are called:",
+    "options": ["Canonical PIs", "Essential Prime Implicants", "Dominant Implicants", "Independent Implicants"],
+    "rightAnswer": "Essential Prime Implicants",
+    "explanation": "EPIs are necessary as they uniquely cover minterms not included by any other PI."
+  },
+  {
+    "id": 102,
+    "level": 3,
+    "question": "A 6-variable K-map contains how many cells?",
+    "options": ["32", "48", "64", "128"],
+    "rightAnswer": "64",
+    "explanation": "A K-map has 2ⁿ cells → 2⁶ = 64."
+  },
+  {
+    "id": 103,
+    "level": 3,
+    "question": "Which technique prevents race-around in JK flip-flop?",
+    "options": ["Edge triggering", "Increasing propagation delay", "Adding XOR gate", "Using reset only"],
+    "rightAnswer": "Edge triggering",
+    "explanation": "Race-around occurs in JK FF in level-triggering; edge triggering prevents multiple toggles."
+  },
+  {
+    "id": 104,
+    "level": 3,
+    "question": "A 4-bit synchronous counter has MOD-16. What is the maximum frequency division it performs?",
+    "options": ["÷2", "÷8", "÷10", "÷16"],
+    "rightAnswer": "÷16",
+    "explanation": "MOD-N counter divides input clock by N."
+  },
+  {
+    "id": 105,
+    "level": 3,
+    "question": "The performance of a DAC primarily depends on:",
+    "options": ["Fan-out", "Resolution and settling time", "Triggering mode", "Instruction set"],
+    "rightAnswer": "Resolution and settling time",
+    "explanation": "DAC quality is measured by resolution accuracy and switching speed."
+  },
+  {
+    "id": 106,
+    "level": 3,
+    "question": "METASTABILITY in flip-flops occurs due to:",
+    "options": ["Clock glitches", "Setup/hold time violations", "High temperature", "High fan-out"],
+    "rightAnswer": "Setup/hold time violations",
+    "explanation": "Violating setup/hold timing causes unpredictable intermediate voltages."
+  },
+  {
+    "id": 107,
+    "level": 3,
+    "question": "Which memory allows simultaneous read from multiple locations but write only at one location?",
+    "options": ["SRAM", "EEPROM", "CAM", "Mask ROM"],
+    "rightAnswer": "CAM",
+    "explanation": "Content Addressable Memory performs parallel read comparison across all cells."
+  },
+  {
+    "id": 108,
+    "level": 3,
+    "question": "The voltage-weighted resistor DAC suffers major limitation due to:",
+    "options": ["Nonlinearity of switches", "Error accumulation from resistor tolerances", "Latch delay", "Power dissipation"],
+    "rightAnswer": "Error accumulation from resistor tolerances",
+    "explanation": "Weighted DAC requires precise resistor ratios; tolerance mismatch causes nonlinearity."
+  },
+  {
+    "id": 109,
+    "level": 3,
+    "question": "Which counter can generate a non-binary customizable sequence?",
+    "options": ["Ring counter", "Johnson counter", "Decade counter", "Programmable counter"],
+    "rightAnswer": "Programmable counter",
+    "explanation": "Programmable counters allow arbitrary preload values for custom sequence generation."
+  },
+  {
+    "id": 110,
+    "level": 3,
+    "question": "A PLA differs from ROM because:",
+    "options": ["ROM uses programmable AND and OR planes", "PLA uses programmable AND and fixed OR", "PLA uses programmable AND and OR planes", "ROM uses programmable AND and programmable XOR"],
+    "rightAnswer": "PLA uses programmable AND and OR planes",
+    "explanation": "PLA has both programmable planes whereas ROM has fixed AND and programmable OR."
+  },
+  {
+    "id": 111,
+    "level": 3,
+    "question": "The biggest reason for using Gray code in rotary shaft encoders is:",
+    "options": ["Binary output is required", "It reduces decoding hardware", "Only one bit changes between transitions", "It supports odd parity checking"],
+    "rightAnswer": "Only one bit changes between transitions",
+    "explanation": "Gray code avoids error due to multiple bit changes during mechanical switching."
+  },
+  {
+    "id": 112,
+    "level": 3,
+    "question": "In CMOS circuits, the dynamic power dissipation is proportional to:",
+    "options": ["Operating temperature", "V² × f × C", "Watt-hour constant", "Carrier drift mobility"],
+    "rightAnswer": "V² × f × C",
+    "explanation": "Dynamic power ∝ load capacitance × frequency × square of supply voltage."
+  },
+  {
+    "id": 113,
+    "level": 3,
+    "question": "Which sequential circuit exhibits maximum propagation of stored bits?",
+    "options": ["PISO shift register", "SISO shift register", "PIPO shift register", "Async counter"],
+    "rightAnswer": "SISO shift register",
+    "explanation": "Input and output are serial; each clock shifts bit position fully."
+  },
+  {
+    "id": 114,
+    "level": 3,
+    "question": "Clock skew in synchronous systems causes:",
+    "options": ["Improved setup margin", "Improved frequency", "Timing violations and race hazards", "Reduction in clock jitter"],
+    "rightAnswer": "Timing violations and race hazards",
+    "explanation": "Unequal clock arrival time causes asynchronous behavior among FFs."
+  },
+  {
+    "id": 115,
+    "level": 3,
+    "question": "Dual slope ADC is mainly used in:",
+    "options": ["High-speed sampling", "Low cost and high noise rejection applications", "Audio compression", "Radiation detection only"],
+    "rightAnswer": "Low cost and high noise rejection applications",
+    "explanation": "Integration over time filters noise effectively but reduces speed."
+  },
+  {
+    "id": 116,
+    "level": 3,
+    "question": "Why is Johnson counter preferred over a ring counter in some applications?",
+    "options": ["More decoding complexity", "Higher Mod count for same FFs", "More hardware required", "Wider propagation delay"],
+    "rightAnswer": "Higher Mod count for same FFs",
+    "explanation": "Ring → Mod-n; Johnson → Mod-2n for same number of flip-flops."
+  },
+  {
+    "id": 117,
+    "level": 3,
+    "question": "The worst-case settling time of DAC determines:",
+    "options": ["Sampling frequency", "Maximum rate at which outputs can change accurately", "Temperature stability", "Only LSB accuracy"],
+    "rightAnswer": "Maximum rate at which outputs can change accurately",
+    "explanation": "Settling time defines conversion speed and accuracy."
+  },
+  {
+    "id": 118,
+    "level": 3,
+    "question": "Setup time in flip-flops refers to the:",
+    "options": ["Minimum time input must be stable before the clock edge", "Minimum time after clock edge", "Propagation delay of FF", "Clock duty cycle"],
+    "rightAnswer": "Minimum time input must be stable before the clock edge",
+    "explanation": "If input changes during this window, FF enters metastability."
+  },
+  {
+    "id": 119,
+    "level": 3,
+    "question": "Which ADC architecture provides the fastest conversion speed?",
+    "options": ["Dual slope", "Flash ADC", "SAR ADC", "Ramp ADC"],
+    "rightAnswer": "Flash ADC",
+    "explanation": "Flash ADC uses parallel comparators enabling nanosecond conversion."
+  },
+  {
+    "id": 120,
+    "level": 3,
+    "question": "SRAM stores data using:",
+    "options": ["MOS capacitors", "Bistable latches", "Floating gate transistors", "Optical traps"],
+    "rightAnswer": "Bistable latches",
+    "explanation": "SRAM uses latch structures for storage, giving fast access and high speed."
+  },
+  {
+    "id": 121,
+    "level": 3,
+    "question": "Bus contention occurs when:",
+    "options": ["Clock stops", "Two drivers drive the bus simultaneously", "Bus is in tri-state", "Bus has high impedance"],
+    "rightAnswer": "Two drivers drive the bus simultaneously",
+    "explanation": "Multiple active drivers create current conflict leading to heating and malfunction."
+  },
+  {
+    "id": 122,
+    "level": 3,
+    "question": "In CPLD internal architecture, logic blocks are connected using:",
+    "options": ["Multiplexer tree", "Fixed global interconnect matrix", "Programmable AND array only", "Flip-flop bank"],
+    "rightAnswer": "Fixed global interconnect matrix",
+    "explanation": "CPLDs use global routing to interconnect logic blocks."
+  },
+  {
+    "id": 123,
+    "level": 3,
+    "question": "Asynchronous counters experience which limitation?",
+    "options": ["No propagation delay", "Accumulated ripple delay", "Fixed clock skew", "Random bit flips"],
+    "rightAnswer": "Accumulated ripple delay",
+    "explanation": "Each stage waits for the previous one, increasing total delay."
+  },
+  {
+    "id": 124,
+    "level": 3,
+    "question": "FPGA logic is implemented using:",
+    "options": ["SR latches only", "Lookup tables with multiplexers", "Decoder banks", "Fixed AND/OR planes"],
+    "rightAnswer": "Lookup tables with multiplexers",
+    "explanation": "LUTs can implement any Boolean function using stored truth tables."
+  },
+  {
+    "id": 125,
+    "level": 3,
+    "question": "In DRAM, charge leakage requires periodic:",
+    "options": ["Resetting", "Refresh cycles", "Clock switching", "Amplification"],
+    "rightAnswer": "Refresh cycles",
+    "explanation": "DRAM cell capacitors gradually leak; refreshing restores charge."
+  },
+  {
+    "id": 126,
+    "level": 3,
+    "question": "A Johnson counter of 5 flip-flops has:",
+    "options": ["MOD-5", "MOD-8", "MOD-10", "MOD-16"],
+    "rightAnswer": "MOD-10",
+    "explanation": "Johnson counter has 2n states → 2×5 = 10."
+  },
+  {
+    "id": 127,
+    "level": 3,
+    "question": "Pipeline delays in high-speed ADCs are caused by:",
+    "options": ["Multiple comparators in parallel", "Sequential stages of conversion", "Low resolution", "Clock gating"],
+    "rightAnswer": "Sequential stages of conversion",
+    "explanation": "Each pipeline stage adds latency while processing previous input code."
+  },
+  {
+    "id": 128,
+    "level": 3,
+    "question": "Which algorithm ensures glitch-free digital comparator output?",
+    "options": ["Binary tree sorting", "Cascaded magnitude compression", "Most Significant Bit first comparison", "Half subtractor chain"],
+    "rightAnswer": "Most Significant Bit first comparison",
+    "explanation": "Once MSB decides relation, lower bits are irrelevant, avoiding switching races."
+  },
+  {
+    "id": 129,
+    "level": 3,
+    "question": "ROM is used as PLD mainly because:",
+    "options": ["ROM eliminates don't care", "ROM implements all functions using stored truth table", "ROM is faster than SRAM", "ROM cancels hazards automatically"],
+    "rightAnswer": "ROM implements all functions using stored truth table",
+    "explanation": "Any Boolean function can be programmed by storing corresponding output in ROM."
+  },
+  {
+    "id": 130,
+    "level": 3,
+    "question": "The biggest challenge in interfacing TTL to CMOS is:",
+    "options": ["Voltage compatibility", "Fan-out mismatch", "Clock synchronization", "Power dissipation"],
+    "rightAnswer": "Voltage compatibility",
+    "explanation": "TTL logic ‘1’ voltage is often insufficient for CMOS input threshold."
+  },
+  {
+    "id": 131,
+    "level": 3,
+    "question": "Propagation of unknown state 'X' is typically caused by:",
+    "options": ["Correct reset sequencing", "Uninitialized flip-flops", "Stable reference clock", "Debounced input"],
+    "rightAnswer": "Uninitialized flip-flops",
+    "explanation": "Without reset, FF outputs contain undefined state 'X' leading to unpredictable logic."
+  },
+  {
+    "id": 132,
+    "level": 3,
+    "question": "The resolution of an 8-bit ADC with ±5 V input range is approximately:",
+    "options": ["19.5 mV", "39 mV", "78 mV", "156 mV"],
+    "rightAnswer": "39 mV",
+    "explanation": "Resolution = Vref / 2⁸ = 10 V / 256 ≈ 0.039 V."
+  },
+  {
+    "id": 133,
+    "level": 3,
+    "question": "A MOD-12 counter may be designed using:",
+    "options": ["Johnson counter only", "Ring counter only", "Synchronous counter with reset logic", "Mux-decoder chain"],
+    "rightAnswer": "Synchronous counter with reset logic",
+    "explanation": "MOD counters not equal to 2^n require reset after count N-1."
+  },
+  {
+    "id": 134,
+    "level": 3,
+    "question": "Which fault model is commonly used in digital IC testing?",
+    "options": ["Bit-flip model", "Stuck-at fault model", "Thermal degradation model", "Wire-break distribution"],
+    "rightAnswer": "Stuck-at fault model",
+    "explanation": "Nodes assumed stuck at 0 or 1 to test testability coverage."
+  },
+  {
+    "id": 135,
+    "level": 3,
+    "question": "The input impedance of CMOS is extremely high because:",
+    "options": ["Base current is high", "Gate terminal draws nearly no current", "Carrier mobility is low", "Threshold voltage is low"],
+    "rightAnswer": "Gate terminal draws nearly no current",
+    "explanation": "MOS gate is insulated by oxide, causing negligible input current."
+  },
+  {
+    "id": 136,
+    "level": 3,
+    "question": "Which counter offers maximum noise immunity in state transitions?",
+    "options": ["Ripple counter", "Binary up-down counter", "Gray coded counter", "Ring counter"],
+    "rightAnswer": "Gray coded counter",
+    "explanation": "Gray code changes only one bit per transition, minimizing hazards."
+  },
+  {
+    "id": 137,
+    "level": 3,
+    "question": "In FPGA routing, signal delay variation mainly depends on:",
+    "options": ["Input voltage", "Routing switch length and load", "Flash memory block size", "JTAG chain length"],
+    "rightAnswer": "Routing switch length and load",
+    "explanation": "Longer routing wires and switch capacitances determine timing."
+  },
+  {
+    "id": 138,
+    "level": 3,
+    "question": "PROM supports:",
+    "options": ["Multiple erase cycles", "Single programming only", "Continuous reprogramming", "Self-write operations"],
+    "rightAnswer": "Single programming only",
+    "explanation": "PROM is one-time programmable using fusible links."
+  },
+  {
+    "id": 139,
+    "level": 3,
+    "question": "Which hazard occurs because of different propagation delays in two or more signal paths?",
+    "options": ["Static hazard", "Dynamic hazard", "Functional hazard", "Timing hazard"],
+    "rightAnswer": "Dynamic hazard",
+    "explanation": "Dynamic hazard produces multiple unwanted transitions due to different delays."
+  },
+  {
+    "id": 140,
+    "level": 3,
+    "question": "A 12-bit ADC sample rate must be reduced if:",
+    "options": ["Resolution increases", "DAC output used for feedback", "Settling time is longer", "Binary coding is replaced by Gray coding"],
+    "rightAnswer": "Settling time is longer",
+    "explanation": "Longer settling time limits sampling frequency to ensure accuracy."
+  },
+  {
+    "id": 141,
+    "level": 3,
+    "question": "For digital systems, the term 'fan-in' refers to:",
+    "options": ["Clock frequency", "Number of inputs a gate can drive", "Number of inputs a gate accepts", "Power rating of gate"],
+    "rightAnswer": "Number of inputs a gate accepts",
+    "explanation": "Fan-in means maximum number of inputs connected to a single gate."
+  },
+  {
+    "id": 142,
+    "level": 3,
+    "question": "Clock gating is used in synchronous circuits mainly to:",
+    "options": ["Increase oscillation speed", "Reduce power consumption", "Improve clock jitter", "Decrease duty cycle"],
+    "rightAnswer": "Reduce power consumption",
+    "explanation": "Clock gating disables inactive modules to reduce dynamic power."
+  },
+  {
+    "id": 143,
+    "level": 3,
+    "question": "Synchronous counters avoid ripple delay by:",
+    "options": ["Using combinational logic for clock generation", "Using same clock to trigger all flip-flops", "Adding extra D-latches", "Reducing fan-out"],
+    "rightAnswer": "Using same clock to trigger all flip-flops",
+    "explanation": "In synchronous counters each FF switches simultaneously."
+  },
+  {
+    "id": 144,
+    "level": 3,
+    "question": "Which factor constrains maximum operating frequency of flip-flops?",
+    "options": ["Setup + hold time + propagation delay", "Duty cycle only", "Fan-out only", "Rise time only"],
+    "rightAnswer": "Setup + hold time + propagation delay",
+    "explanation": "The sum determines minimum allowable clock period."
+  },
+  {
+    "id": 145,
+    "level": 3,
+    "question": "Charge injection is an important non-ideality in which converter?",
+    "options": ["Flash ADC", "Switched capacitor DAC", "Dual slope ADC", "V-to-F converter"],
+    "rightAnswer": "Switched capacitor DAC",
+    "explanation": "Charge injection in MOS switches causes output glitches in capacitor switching architectures."
+  },
+  {
+    "id": 146,
+    "level": 3,
+    "question": "An FSM suffers deadlock when:",
+    "options": ["No reset pin is present", "Clock frequency too high", "State transition graph traps system in one state", "Multiple FFs toggle simultaneously"],
+    "rightAnswer": "State transition graph traps system in one state",
+    "explanation": "Deadlock occurs when state has no outgoing edges."
+  },
+  {
+    "id": 147,
+    "level": 3,
+    "question": "One hot encoding in FSM design offers:",
+    "options": ["Fewer flip-flops than binary encoding", "Higher speed with more flip-flops", "Slow operation with fewer flip-flops", "Only asynchronous operation"],
+    "rightAnswer": "Higher speed with more flip-flops",
+    "explanation": "One FF per state simplifies decoding yielding higher speed."
+  },
+  {
+    "id": 148,
+    "level": 3,
+    "question": "EEPROM differs from Flash memory mainly because:",
+    "options": ["EEPROM erases byte-wise while Flash erases block-wise", "EEPROM has higher density", "Flash is volatile", "EEPROM uses capacitor storage"],
+    "rightAnswer": "EEPROM erases byte-wise while Flash erases block-wise",
+    "explanation": "Flash erases larger memory blocks while EEPROM supports selective byte writes."
+  },
+  {
+    "id": 149,
+    "level": 3,
+    "question": "Which ADC architecture is best suited for DSP applications requiring high resolution and moderate speed?",
+    "options": ["Flash", "Sigma-Delta", "SAR", "Pipeline"],
+    "rightAnswer": "Sigma-Delta",
+    "explanation": "Sigma-Delta provides high resolution with oversampling and noise shaping."
+  },
+  {
+    "id": 150,
+    "level": 3,
+    "question": "The term 'logic cone' refers to:",
+    "options": ["Gate fan-out factor", "Set of logic paths driving a particular sink", "Propagation of don't care conditions", "State diagram curvature"],
+    "rightAnswer": "Set of logic paths driving a particular sink",
+    "explanation": "Cone of influence contains all logic feeding a particular node."
+  }
+]

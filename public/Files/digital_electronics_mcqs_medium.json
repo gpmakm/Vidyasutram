@@ -1,0 +1,652 @@
+[
+    {
+        "id": 51,
+        "level": 2,
+        "question": "Which circuit converts binary information from n input lines to a maximum of 2ⁿ output lines?",
+        "options": [
+            "Encoder",
+            "Decoder",
+            "Multiplexer",
+            "Comparator"
+        ],
+        "rightAnswer": "Decoder",
+        "explanation": "A decoder takes binary inputs and activates one of many outputs based on the input."
+    },
+    {
+        "id": 52,
+        "level": 2,
+        "question": "Which adder reduces propagation delay using carry generate and carry propagate functions?",
+        "options": [
+            "Ripple carry adder",
+            "Carry look-ahead adder",
+            "Half adder",
+            "BCD adder"
+        ],
+        "rightAnswer": "Carry look-ahead adder",
+        "explanation": "Carry look-ahead adder speeds up addition by predicting carries instead of waiting for propagation."
+    },
+    {
+        "id": 53,
+        "level": 2,
+        "question": "A 4-to-1 MUX requires how many select lines?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "rightAnswer": "2",
+        "explanation": "For 2ⁿ = 4 inputs, n = 2 select lines are needed."
+    },
+    {
+        "id": 54,
+        "level": 2,
+        "question": "Which device performs serial addition?",
+        "options": [
+            "Ripple carry adder",
+            "BCD adder",
+            "Serial adder",
+            "Full subtractor"
+        ],
+        "rightAnswer": "Serial adder",
+        "explanation": "A serial adder adds bits one at a time using shift registers."
+    },
+    {
+        "id": 55,
+        "level": 2,
+        "question": "How many minterms exist in a 3-variable Boolean function?",
+        "options": [
+            "4",
+            "6",
+            "8",
+            "10"
+        ],
+        "rightAnswer": "8",
+        "explanation": "The total minterms = 2ⁿ for n variables → 2³ = 8."
+    },
+    {
+        "id": 56,
+        "level": 2,
+        "question": "Which logic simplification technique is graph-based?",
+        "options": [
+            "Boolean algebra",
+            "K-map",
+            "Quine–McCluskey",
+            "Truth table"
+        ],
+        "rightAnswer": "K-map",
+        "explanation": "Karnaugh map uses visual grouping to simplify Boolean expressions."
+    },
+    {
+        "id": 57,
+        "level": 2,
+        "question": "Which circuit compares two binary numbers and determines equality?",
+        "options": [
+            "Multiplexer",
+            "Comparator",
+            "Encoder",
+            "Counter"
+        ],
+        "rightAnswer": "Comparator",
+        "explanation": "A comparator checks A = B, A > B, and A < B."
+    },
+    {
+        "id": 58,
+        "level": 2,
+        "question": "Which logic family is known for the lowest power consumption?",
+        "options": [
+            "TTL",
+            "DTL",
+            "RTL",
+            "CMOS"
+        ],
+        "rightAnswer": "CMOS",
+        "explanation": "CMOS consumes extremely low static power due to complementary MOS transistors."
+    },
+    {
+        "id": 59,
+        "level": 2,
+        "question": "A full adder can be built using:",
+        "options": [
+            "2 XOR gates only",
+            "Two half adders and one OR gate",
+            "One half adder only",
+            "Three AND gates only"
+        ],
+        "rightAnswer": "Two half adders and one OR gate",
+        "explanation": "A full adder = half adder for sum + half adder for carry + OR gate for final carry."
+    },
+    {
+        "id": 60,
+        "level": 2,
+        "question": "Which of the following detects odd or even parity?",
+        "options": [
+            "Encoder",
+            "Decoder",
+            "Parity checker",
+            "Binary adder"
+        ],
+        "rightAnswer": "Parity checker",
+        "explanation": "Parity checker verifies whether data has even or odd parity."
+    },
+    {
+        "id": 61,
+        "level": 2,
+        "question": "What is the output of a 1-of-8 demultiplexer given 3 select lines?",
+        "options": [
+            "Eight inputs and one output",
+            "Three outputs only",
+            "One input and eight outputs",
+            "Two inputs and four outputs"
+        ],
+        "rightAnswer": "One input and eight outputs",
+        "explanation": "A demultiplexer takes one input and distributes it to one of many outputs."
+    },
+    {
+        "id": 62,
+        "level": 2,
+        "question": "Which K-map grouping gives the highest simplification impact?",
+        "options": [
+            "Group of 2",
+            "Group of 4",
+            "Group of 8",
+            "Group of 1"
+        ],
+        "rightAnswer": "Group of 8",
+        "explanation": "Larger K-map groupings reduce more variables."
+    },
+    {
+        "id": 63,
+        "level": 2,
+        "question": "The primary purpose of a priority encoder is:",
+        "options": [
+            "Output highest priority active input",
+            "Demultiplex input signals",
+            "Perform subtraction",
+            "Generate carry"
+        ],
+        "rightAnswer": "Output highest priority active input",
+        "explanation": "Priority encoder assigns priority to input lines and selects the highest active one."
+    },
+    {
+        "id": 64,
+        "level": 2,
+        "question": "A BCD adder produces correction when:",
+        "options": [
+            "Sum > 9",
+            "Sum < 5",
+            "Sum = 0",
+            "Sum = 10"
+        ],
+        "rightAnswer": "Sum > 9",
+        "explanation": "BCD addition must add +6 if result exceeds 1001 (9)."
+    },
+    {
+        "id": 65,
+        "level": 2,
+        "question": "Which technique is used to minimize Boolean functions algorithmically rather than graphically?",
+        "options": [
+            "K-map",
+            "Boolean algebra",
+            "Quine–McCluskey",
+            "Truth table"
+        ],
+        "rightAnswer": "Quine–McCluskey",
+        "explanation": "Q-M method is a tabular minimization technique."
+    },
+    {
+        "id": 66,
+        "level": 2,
+        "question": "Which component is essential in designing an ALU?",
+        "options": [
+            "Decoder",
+            "Adder/Subtractor",
+            "Latch",
+            "Oscillator"
+        ],
+        "rightAnswer": "Adder/Subtractor",
+        "explanation": "ALUs use arithmetic add/subtract circuits for data processing."
+    },
+    {
+        "id": 67,
+        "level": 2,
+        "question": "How many outputs does a 3-to-8 decoder generate?",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "rightAnswer": "8",
+        "explanation": "A 3-input decoder generates 2³ = 8 outputs."
+    },
+    {
+        "id": 68,
+        "level": 2,
+        "question": "A parity generator is mainly used for:",
+        "options": [
+            "Error detection",
+            "Voltage regulation",
+            "Clock generation",
+            "Signal multiplexing"
+        ],
+        "rightAnswer": "Error detection",
+        "explanation": "Parity bits detect single-bit errors."
+    },
+    {
+        "id": 69,
+        "level": 2,
+        "question": "Which circuit selects one of many input lines and forward it to a single output line?",
+        "options": [
+            "Multiplexer",
+            "Demultiplexer",
+            "Decoder",
+            "Encoder"
+        ],
+        "rightAnswer": "Multiplexer",
+        "explanation": "A multiplexer selects one input out of many using select lines."
+    },
+    {
+        "id": 70,
+        "level": 2,
+        "question": "4-bit ripple carry adder has propagation delay because:",
+        "options": [
+            "Sum is calculated in parallel",
+            "Carry propagates stage by stage",
+            "Gates are slow",
+            "Input bits mismatch"
+        ],
+        "rightAnswer": "Carry propagates stage by stage",
+        "explanation": "Carry ripple effect causes cumulative delay."
+    },
+    {
+        "id": 71,
+        "level": 2,
+        "question": "Which logic device can be used as a function generator?",
+        "options": [
+            "Adder",
+            "Shift register",
+            "Decoder",
+            "PROM"
+        ],
+        "rightAnswer": "PROM",
+        "explanation": "PROM can implement Boolean functions using stored truth tables."
+    },
+    {
+        "id": 72,
+        "level": 2,
+        "question": "Which block is required to interface seven-segment displays?",
+        "options": [
+            "Priority encoder",
+            "Decoder/driver",
+            "Multiplexer",
+            "Counter"
+        ],
+        "rightAnswer": "Decoder/driver",
+        "explanation": "A decoder/driver translates BCD to seven-segment format."
+    },
+    {
+        "id": 73,
+        "level": 2,
+        "question": "In a K-map, don't care conditions are used to:",
+        "options": [
+            "Increase terms",
+            "Reduce grouping options",
+            "Simplify expressions",
+            "Erase minterms"
+        ],
+        "rightAnswer": "Simplify expressions",
+        "explanation": "Don't care cells allow additional grouping to reduce variables."
+    },
+    {
+        "id": 74,
+        "level": 2,
+        "question": "Which feature distinguishes a parallel adder from a serial adder?",
+        "options": [
+            "More clock cycles",
+            "Output in binary coded decimal",
+            "Simultaneous bit addition",
+            "Single bit storage"
+        ],
+        "rightAnswer": "Simultaneous bit addition",
+        "explanation": "All bits are added at once in a parallel adder."
+    },
+    {
+        "id": 75,
+        "level": 2,
+        "question": "Which of the following is NOT an MSI device?",
+        "options": [
+            "Adder",
+            "Multiplexer",
+            "Flip-flop",
+            "Digital comparator"
+        ],
+        "rightAnswer": "Flip-flop",
+        "explanation": "Flip-flop is a small-scale integration (SSI) device, not MSI."
+    },
+    {
+        "id": 76,
+        "level": 2,
+        "question": "Which adder performs addition bit-by-bit using a single full-adder and carries sequentially?",
+        "options": [
+            "Serial adder",
+            "Ripple carry adder",
+            "Carry look-ahead adder",
+            "Parallel adder"
+        ],
+        "rightAnswer": "Serial adder",
+        "explanation": "Serial adder processes bits sequentially, using one full-adder and shifting carries."
+    },
+    {
+        "id": 77,
+        "level": 2,
+        "question": "Which BCD code represents decimal 7?",
+        "options": [
+            "0111",
+            "1000",
+            "1110",
+            "0011"
+        ],
+        "rightAnswer": "0111",
+        "explanation": "BCD encodes each decimal digit in 4 bits: 7 = 0111."
+    },
+    {
+        "id": 78,
+        "level": 2,
+        "question": "A 2-to-1 multiplexer requires how many select lines?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+        ],
+        "rightAnswer": "1",
+        "explanation": "A 2-to-1 MUX uses one select line to choose between two inputs."
+    },
+    {
+        "id": 79,
+        "level": 2,
+        "question": "Which MSI chip family includes popular ALU chips like the 74181?",
+        "options": [
+            "Medium Scale Integration (MSI)",
+            "Small Scale Integration (SSI)",
+            "Large Scale Integration (LSI)",
+            "Very Large Scale Integration (VLSI)"
+        ],
+        "rightAnswer": "Medium Scale Integration (MSI)",
+        "explanation": "74181 is an MSI ALU chip, part of the MSI category."
+    },
+    {
+        "id": 80,
+        "level": 2,
+        "question": "Which technique is commonly used to reduce a Boolean function using a K-map?",
+        "options": [
+            "Group adjacent 1s into powers of two",
+            "Differentiate the expression",
+            "Perform decimal conversion",
+            "Use flip-flops"
+        ],
+        "rightAnswer": "Group adjacent 1s into powers of two",
+        "explanation": "K-map simplification groups adjacent 1s in sizes 1,2,4,8... to minimize terms."
+    },
+    {
+        "id": 81,
+        "level": 2,
+        "question": "What does a parity checker detect?",
+        "options": [
+            "Single-bit errors",
+            "Power failure",
+            "Clock skew",
+            "Multiple-bit corrections"
+        ],
+        "rightAnswer": "Single-bit errors",
+        "explanation": "Parity checkers detect single-bit errors by comparing parity bits."
+    },
+    {
+        "id": 82,
+        "level": 2,
+        "question": "Which device converts binary-coded decimal to seven-segment display signals?",
+        "options": [
+            "BCD-to-seven-segment decoder/driver",
+            "Parity generator",
+            "Multiplexer",
+            "Comparator"
+        ],
+        "rightAnswer": "BCD-to-seven-segment decoder/driver",
+        "explanation": "Decoder/driver converts BCD digits to seven-segment patterns for displays."
+    },
+    {
+        "id": 83,
+        "level": 2,
+        "question": "Which circuit implements the function F = Σm(1,2,4,7) using K-map simplification would result in:",
+        "options": [
+            "F = A'B + BC'",
+            "F = A'B' + C",
+            "F = AB + C'",
+            "F = A + B + C"
+        ],
+        "rightAnswer": "F = A'B + BC'",
+        "explanation": "K-map grouping of the given minterms simplifies to A'B + BC'."
+    },
+    {
+        "id": 84,
+        "level": 2,
+        "question": "Which of the following is true for a full adder?",
+        "options": [
+            "It has three inputs (A, B, Cin) and two outputs (Sum, Cout)",
+            "It has two inputs and one output",
+            "It can't handle carry-in",
+            "It is identical to a half adder"
+        ],
+        "rightAnswer": "It has three inputs (A, B, Cin) and two outputs (Sum, Cout)",
+        "explanation": "Full adder takes A,B and carry-in and produces sum and carry-out."
+    },
+    {
+        "id": 85,
+        "level": 2,
+        "question": "Which of the following is a code converter?",
+        "options": [
+            "Binary to Gray converter",
+            "Parity checker",
+            "Comparator",
+            "Decoder"
+        ],
+        "rightAnswer": "Binary to Gray converter",
+        "explanation": "Code converters change one binary code representation into another, e.g., Binary→Gray."
+    },
+    {
+        "id": 86,
+        "level": 2,
+        "question": "In minimization using the Quine-McCluskey (Q-M) method, the first step is:",
+        "options": [
+            "Group minterms by number of ones",
+            "Apply De Morgan’s theorem",
+            "Draw K-map",
+            "Implement circuit"
+        ],
+        "rightAnswer": "Group minterms by number of ones",
+        "explanation": "Q-M starts by grouping minterms by their count of 1s to combine implicants."
+    },
+    {
+        "id": 87,
+        "level": 2,
+        "question": "Which is true for a half-adder?",
+        "options": [
+            "It cannot accept carry-in",
+            "It has three inputs",
+            "It produces carry-in",
+            "It stores data like a flip-flop"
+        ],
+        "rightAnswer": "It cannot accept carry-in",
+        "explanation": "Half-adder sums two bits and has no provision for carry-in."
+    },
+    {
+        "id": 88,
+        "level": 2,
+        "question": "Which technique is used in carry look-ahead adders to reduce delay?",
+        "options": [
+            "Generate and propagate signals to compute carries in parallel",
+            "Serial propagation of carry",
+            "Using only XOR gates",
+            "Using flip-flops for carry"
+        ],
+        "rightAnswer": "Generate and propagate signals to compute carries in parallel",
+        "explanation": "Carry look-ahead uses generate/propagate to compute carries faster in parallel."
+    },
+    {
+        "id": 89,
+        "level": 2,
+        "question": "Which device is used to convert serial data to parallel data?",
+        "options": [
+            "Shift register (serial-in, parallel-out)",
+            "Parallel adder",
+            "Multiplexer",
+            "Decoder"
+        ],
+        "rightAnswer": "Shift register (serial-in, parallel-out)",
+        "explanation": "Serial-in, parallel-out shift registers collect serial bits and present parallel outputs."
+    },
+    {
+        "id": 90,
+        "level": 2,
+        "question": "Which logic simplification identity yields A + A'B = A + B?",
+        "options": [
+            "Consensus/Absorption related simplification",
+            "De Morgan’s Law",
+            "Commutative Law",
+            "Distributive Law"
+        ],
+        "rightAnswer": "Consensus/Absorption related simplification",
+        "explanation": "Absorption/consensus simplification produces equivalent simpler expressions."
+    },
+    {
+        "id": 91,
+        "level": 2,
+        "question": "Which of the following is a typical application of an ALU?",
+        "options": [
+            "Perform arithmetic and logic operations for a CPU",
+            "Store program code",
+            "Drive display segments",
+            "Generate clock signals"
+        ],
+        "rightAnswer": "Perform arithmetic and logic operations for a CPU",
+        "explanation": "ALU executes arithmetic and logical operations inside processors."
+    },
+    {
+        "id": 92,
+        "level": 2,
+        "question": "What is the purpose of a priority encoder?",
+        "options": [
+            "Encode input with priority given to highest order active input",
+            "Decode BCD to seven-seg",
+            "Add two numbers",
+            "Store bits sequentially"
+        ],
+        "rightAnswer": "Encode input with priority given to highest order active input",
+        "explanation": "Priority encoders output binary code of the highest-priority active input."
+    },
+    {
+        "id": 93,
+        "level": 2,
+        "question": "A comparator with inputs A and B outputs 1 when:",
+        "options": [
+            "A = B (for equality output)",
+            "A < B only",
+            "A > B only",
+            "Never outputs 1"
+        ],
+        "rightAnswer": "A = B (for equality output)",
+        "explanation": "Equality comparator outputs 1 when two inputs are equal."
+    },
+    {
+        "id": 94,
+        "level": 2,
+        "question": "Which technique helps reduce hazards in combinational circuits during minimization?",
+        "options": [
+            "Using redundant terms or careful grouping in K-map",
+            "Removing all overlaps",
+            "Ignoring don’t-care conditions",
+            "Using only NAND gates"
+        ],
+        "rightAnswer": "Using redundant terms or careful grouping in K-map",
+        "explanation": "Careful grouping and sometimes redundant terms help remove static hazards."
+    },
+    {
+        "id": 95,
+        "level": 2,
+        "question": "Which is true about BCD addition when sum of nibble exceeds 9?",
+        "options": [
+            "Add 6 (0110) to the sum to correct",
+            "Subtract 6",
+            "No correction needed",
+            "Add 9 (1001) always"
+        ],
+        "rightAnswer": "Add 6 (0110) to the sum to correct",
+        "explanation": "BCD correction adds 6 when nibble > 9 or carry is generated."
+    },
+    {
+        "id": 96,
+        "level": 2,
+        "question": "Which device is commonly used as a display driver for seven-segment displays?",
+        "options": [
+            "7447 / 4511 style BCD-to-seven-seg drivers",
+            "XOR gate",
+            "D flip-flop",
+            "Shift register"
+        ],
+        "rightAnswer": "7447 / 4511 style BCD-to-seven-seg drivers",
+        "explanation": "Dedicated decoder/driver ICs (like 7447/4511) convert BCD to segment patterns."
+    },
+    {
+        "id": 97,
+        "level": 2,
+        "question": "Which of the following is a common use of multiplexers in digital circuits?",
+        "options": [
+            "Data selection and routing",
+            "Amplification",
+            "Voltage regulation",
+            "Error correction"
+        ],
+        "rightAnswer": "Data selection and routing",
+        "explanation": "Multiplexers route selected input to the output, useful for data selection."
+    },
+    {
+        "id": 98,
+        "level": 2,
+        "question": "Which of the following is a valid result when minimizing logic using don’t-care conditions?",
+        "options": [
+            "Simpler expression by treating some minterms as either 0 or 1",
+            "Always larger expression",
+            "Only affects timing",
+            "Removes the need for K-map"
+        ],
+        "rightAnswer": "Simpler expression by treating some minterms as either 0 or 1",
+        "explanation": "Don’t-care conditions give flexibility to reduce expressions further."
+    },
+    {
+        "id": 99,
+        "level": 2,
+        "question": "Which circuit converts parallel data into serial form?",
+        "options": [
+            "Parallel-in, serial-out shift register",
+            "Parallel adder",
+            "Multiplexer",
+            "Decoder"
+        ],
+        "rightAnswer": "Parallel-in, serial-out shift register",
+        "explanation": "PISO shift registers output stored parallel bits serially."
+    },
+    {
+        "id": 100,
+        "level": 2,
+        "question": "Which of the following best describes a decoder's truth table?",
+        "options": [
+            "One active output for each input code",
+            "All outputs active for any input",
+            "Outputs are analog voltages",
+            "It acts as an adder"
+        ],
+        "rightAnswer": "One active output for each input code",
+        "explanation": "Decoders activate exactly one output corresponding to the input code."
+    }
+]

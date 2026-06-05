@@ -1,0 +1,94 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 25vw;
+  height: 25vh;
+  padding: 8px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  align-self: center;
+  
+}
+
+#choose{
+  width: 50vw;
+  height: 35vh;
+  padding: 7px;
+  margin: 8px;
+  display: flex;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid grey;
+  border-radius: 28px;
+  background-color: white;
+}
+label{
+  font-size: 20px;
+  margin: 5px;
+  padding: 2px;
+ 
+ 
+ 
+}
+
+#qrCode{
+  width: 25vw;
+  height: 25vh;
+  padding: 7px;
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  width: 10vw;
+  height: 5vh;
+  padding: 7px;
+  margin: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.card{
+  width: auto;
+  height: auto;
+  padding: 12px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+ 
+ 
+  border: 2px solid grey;
+  border-radius: 28px;
+}
+
+@media screen and (max-width:500px) {
+  #choose{
+    height: auto;
+    width: 90vw;
+    flex-direction: row;
+  }
+  
+}

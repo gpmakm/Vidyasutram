@@ -8,6 +8,8 @@ const VidyaSutramNavbar = () => {
         <li><Link href={"/"}>Home</Link></li>
         <li><Link href={"/about"}>About</Link></li>
         <li><Link href={"/developers"}>Developers</Link></li>
+        <li> <a href={"/exams"}>Give DE test</a> </li>
+        
        
         
       </ul>
