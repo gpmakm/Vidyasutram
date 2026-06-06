@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 
 const connectToDB = async () => {
     try {
-        await mongoose.connect(process.env.DBLINK);
+        await mongoose.connect(process.env.DBLINK2);
         console.log("Connected to MongoDB");
     } catch (error) {
         console.error("Error connecting to MongoDB:", error);
@@ -23,7 +23,13 @@ export  async function POST(req){
         appname:appname,
         user:user
     })
-    await d.save().then(()=>{console.log("Data Saved!!");
+    try{
+        await d.save().then(()=>{console.log("Data Saved!!");
     }).catch((err)=>{console.error(err)});
     return NextResponse.json({message:"Data received successfully"});
+    }
+    catch(err){
+        console.error(err);
+        return NextResponse.json({message:"Error saving data"}, {status:500});
+    }
 }

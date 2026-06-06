@@ -557,8 +557,9 @@ button {
   align-self: center;
   border: 2px solid violet;align-items: center;
 }
-button{
-  border: 2px solid currentColor;
+#temp form button{
+  border: 2px solid blueviolet;
+  flex-wrap: wrap;
 }
 .field input{
   width: 35vw;
