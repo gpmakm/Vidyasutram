@@ -565,7 +565,7 @@ button {
   width: 35vw;
   height: 5vh;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:500px) {
   #temp form input{
     width: 80vw;
     height: 5vh;
