@@ -5,8 +5,10 @@ import {React,useState} from 'react'
  const page =  () => {
     const [app,setApp]=useState();
     const [user,setUser]=useState()
+    const [buttonText,setButtonText]=useState('Submit my idea')
     const sendData=async (e)=>{
         e.preventDefault();
+        setButtonText("Submitting...")
         let r= await fetch('/forms/form',{
             method:'POST',
             body:JSON.stringify({
@@ -20,7 +22,9 @@ import {React,useState} from 'react'
         alert(data.message)
         console.log(app+user);
         console.log(data);
-        
+        setButtonText("Submit my idea")
+        setApp('');
+        setUser('');
         
     }
   return (
@@ -32,7 +36,7 @@ import {React,useState} from 'react'
             <div className="field">
                 <input type="text" name="appname" id="" placeholder='Enter expected app name ...' value={app} onChange={(e)=>{setApp(e.target.value)}} />
             </div>
-            <button>Submit my idea</button>
+            <button>{buttonText}</button>
         </form>
     </div>
   )
